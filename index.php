@@ -42,7 +42,6 @@
         <h3>Upload CSV File</h3>
         <form action="import.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
-                <input type="text" name="name" >
                 <label for="file" class="form-label">Choose CSV File</label>
                 <input class="form-control" type="file" name="file" id="file"  required>
             </div>
